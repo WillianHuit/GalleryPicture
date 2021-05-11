@@ -1,0 +1,118 @@
+/*
+  Palet Colors:
+    d8e3e7
+    51c4d3
+    126e82
+    132c33
+*/
+.navbar{
+   background-color: #126e82;
+   color: #d8e3e7;
+}
+.nav-link{
+  color: #d8e3e7;
+}
+.navbar-brand{
+  color: #d8e3e7;
+}
+
+.body-gallery{
+
+  background-color: #132c33;
+}
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.info{
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 15px;
+  padding:30px 20px 30px 30px;
+  margin: 20px 20px 20px 20px;
+}
+
+.form {
+  width: 450px;
+  background-color: #132c33;
+}
+
+.col{
+  margin-top: 1.5%;
+}
+.word{
+  opacity: 0.1;
+  display: inline-block;
+}
+.gallery > div a {
+              border: 3px solid #d8e3e7;
+              border-radius: 3px;
+              display: inline-block;
+              overflow: hidden;
+              position: relative;
+              float: left;
+            }
+.gallery > div a > img {
+              -webkit-transition: -webkit-transform 0.15s ease 0s;
+              -moz-transition: -moz-transform 0.15s ease 0s;
+              -o-transition: -o-transform 0.15s ease 0s;
+              transition: transform 0.15s ease 0s;
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+              height: 200px;
+              width: 100%;
+              object-fit: cover;
+            }     
+.gallery >div a:hover > img {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1);
+              transform: scale3d(1.1, 1.1, 1.1);
+            }  
+
+.cover{
+  text-align: center;
+   font-size: 50px;
+  color: #d8e3e7;
+  position: relative
+
+}
+.center-text{
+    position: absolute;
+    align-items: inline;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cover-pick{
+  background-image: url('https://image.freepik.com/foto-gratis/hermoso-arbol-medio-campo-cubierto-hierba-linea-arboles-fondo_181624-29267.jpg');
+ height: 300px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  filter: blur(2px);
+
+}
+.cover-pick > h1{
+  font-size: 60px;
+  color: #fff;
+  position: relative
+}
+
+.cover-pick:before {
+  content:'';
+  position: absolute;
+        top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.6);
+ 
+}
+.nav-link:hover{
+  color: #51c4d3;
+}
+.navbar-brand:hover{
+  color: #51c4d3;
+}
